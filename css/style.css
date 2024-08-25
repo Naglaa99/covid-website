@@ -1,0 +1,187 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/font/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+*::selection {
+  background-color: #0a3d62;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("../assets/images/background-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* -----header----- */
+#header {
+  width: 100%;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  transition: background-color 0.4s ease;
+  z-index: 1;
+}
+
+.sticky {
+  background-color: white;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  max-width: 1350px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.logo {
+  font-size: 25px;
+  color: #0a3d62;
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  color: #3c6382;
+  font-size: 30px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.nav-links a {
+  font-size: 18px;
+  color: #0a3d62;
+  padding: 5px 15px;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  color: #ffffff;
+  background-color: #3c6382;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  padding: 2.5rem 7rem;
+  min-height: 100vh;
+}
+
+.home {
+  position: relative;
+  background-image: url("../assets/images/home-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  top: 0;
+}
+
+.home h1 {
+  font-size: 50px;
+  color: #0a3d62;
+}
+
+.home h3 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #3c6382;
+  text-transform: capitalize;
+}
+
+.home button {
+  width: 12rem;
+  padding-block: 6px;
+  margin-block: 10px;
+  font-size: 1.1rem;
+  color: #ffffff;
+  background-color: #3c6382;
+  border-radius: 6px;
+}
+
+.home button:hover {
+  background-color: #0a3d62;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.prevent-virus {
+  background-color: white;
+  text-align: center;
+}
+
+.headline {
+  padding-top: 35px;
+  color: #3c6382;
+  font-size: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.prevent-container,
+.symptoms-container,
+.precautions-container,
+.doctor-container,
+.wash-container,
+.footer-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  flex: 0 1 30%;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  padding: 15px 35px;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+.card img {
+  height: 7.5rem;
+  padding: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #3c6382;
+}
+
+.card p {
+  padding-top: 10px;
+  font-size: 14px;
+  color: #0a3d62;
+}
+
+.card:hover {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
