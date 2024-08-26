@@ -327,6 +327,7 @@ hr {
   background-color: #0a3d62;
   color: white;
   transform: rotate(360deg);
+  cursor: pointer;
 }
 
 .footer-container {
