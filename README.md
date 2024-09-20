@@ -24,4 +24,4 @@ This project is a responsive website built using HTML, CSS, and JavaScript to pr
 ![preview img](./assets/images/preview-img.png)
 
 ## Live Demo 
-[ ]
+[https://naglaa99.github.io/covid-website/]
